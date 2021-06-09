@@ -1,0 +1,29 @@
+%!TEX root = ../dokumentation.tex
+
+\chapter{Implementierung}
+
+\section{Ausgangslage}
+
+\section{Simulation als Datenproduktion}
+Strecke modelieren
+
+Kamera entlang der Strecke fahren lassen
+
+Lenkwinkel berechnen, mit zwei Tangenten an der Strecke
+
+\section{Kamera}
+Auflösung, Position, FoV eingestellt.
+
+Problem: Für die IPM umrechnung muss der Kamerafeed sehr genau den echten wiederspiegeln.
+Neue matrix wäre eine Scheiß Lösung.
+
+
+\section{statische Fortbewegung}
+Problem: Lenkwinkel muss irgendwie in eine Transformation des Fahrzeugs umgewandelt werden.
+Der genaue Lösung wäre eine dynamische Simulation der Räder und Lenkung.
+Dies war nicht so einfach abzustimmen, da sich die Simulation anders Verhalten hat als das echte Fahrzeug.
+Vorläufige Lösung: Eine Rechnung die die Transformation abschätzt, aber sehr genau ist bei kleinen Lenkwinkel und hoher Fps.
+
+\section{dynamische Fortbewegung}
+Vier drehende Räder, Antrieb, Lenkung vorne.
+Problem mit, Kräften, massen, Kollision...
