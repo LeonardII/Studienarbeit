@@ -11,6 +11,7 @@ Kamera entlang der Strecke fahren lassen
 
 Lenkwinkel berechnen, mit zwei Tangenten an der Strecke
 
+
 \section{Kamera}
 Auflösung, Position, FoV eingestellt.
 
@@ -23,7 +24,27 @@ Problem: Lenkwinkel muss irgendwie in eine Transformation des Fahrzeugs umgewand
 Der genaue Lösung wäre eine dynamische Simulation der Räder und Lenkung.
 Dies war nicht so einfach abzustimmen, da sich die Simulation anders Verhalten hat als das echte Fahrzeug.
 Vorläufige Lösung: Eine Rechnung die die Transformation abschätzt, aber sehr genau ist bei kleinen Lenkwinkel und hoher Fps.
+RAUSFINDEN WIE ICH DAS GEMACHT HABE
+
 
 \section{dynamische Fortbewegung}
 Vier drehende Räder, Antrieb, Lenkung vorne.
 Problem mit, Kräften, massen, Kollision...
+
+Die Räder des Fahrzeugs werden definiert innerhalb einem Link.
+Jeder der vier Links besitzt eine visuelle Komponente und ein Kollisions-Komponente.
+Das visuelle Objekt und das Kollisions-Objekt stimmen überein, beide definieren den gleichen Zylinder.
+Jeder physikalisch simulierte Link benötigt einen inertial-Tag.
+Dieser definiert die Masse "mass" und die Massenverteilung als inertia Tensor "inertia".
+
+Damit sich ein Rad drehen kann, wird es mit einem Joint an dem Fahrzeug befestigt.
+Der Joint definiert die beiden Links die verbunden werden sollen: child und parent.
+Der Typ des Joints ist für die Räder "continuos". Das bedeuted, dass sich die Räder ohne Einschränkung um eine Achse drehen können.
+Der Joint definiert außerdem die Position und Orientierung der Achse.
+
+DiskJoints.
+
+BRAUCHT MAN TRANSMISSIONS ÜBERHAUPT, ODER REICHEN CONTROLLER AUF JOINTS?
+Um die Räder und die Länkung zu steuern, benötigt es einen Motor. 
+Für urdf gibt es hierfür Actuator und Transmissions.
+Eine Transmission verbindet einen Actuator mit einem Joint. 

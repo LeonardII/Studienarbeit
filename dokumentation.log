@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.11)  25 MAR 2021 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.11)  9 JUN 2021 04:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1593,27 +1593,30 @@ chapter 3.
 
 ]
 chapter 4.
-) (/home/leonard/Documents/Studienarbeit/latexVorlage/content/05kapitel.tex [4
+[4
 
-]
+]) (/home/leonard/Documents/Studienarbeit/latexVorlage/content/05kapitel.tex
+Overfull \vbox (7.89444pt too high) has occurred while \output is active []
+
+ [5]
 chapter 5.
-) [5
+) [6
 
 ]
 chapter without number
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
-(/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.gls [6
+(/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.gls [7
 
 
 
-]) [7
+]) [8
 
 
 ] (/home/leonard/Documents/Studienarbeit/latexVorlage/ads/appendix.tex
 chapter without number
-[8
+[9
 
 
 ])
@@ -1621,22 +1624,22 @@ No complaints by nag.
 
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
- [9] (/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.aux)
+ [10] (/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.aux)
 Package logreq Info: Writing requests to 'dokumentation.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 40742 strings out of 479383
- 773667 string characters out of 5875830
- 1822785 words of memory out of 5000000
- 56761 multiletter control sequences out of 15000+600000
- 493045 words of font info for 113 fonts, out of 8000000 for 9000
+ 40756 strings out of 479383
+ 773830 string characters out of 5875830
+ 1822784 words of memory out of 5000000
+ 56766 multiletter control sequences out of 15000+600000
+ 493409 words of font info for 117 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  110i,10n,113p,10678b,2319s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.pdf (18 pages, 343465 bytes).
+Output written on /home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.pdf (19 pages, 349642 bytes).
 PDF statistics:
- 377 PDF objects out of 1000 (max. 8388607)
- 317 compressed objects within 4 object streams
- 67 named destinations out of 1000 (max. 500000)
+ 382 PDF objects out of 1000 (max. 8388607)
+ 321 compressed objects within 4 object streams
+ 68 named destinations out of 1000 (max. 500000)
  31564 words of extra memory for PDF output out of 35830 (max. 10000000)
 

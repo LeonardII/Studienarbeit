@@ -1809,6 +1809,7 @@ INPUT /home/leonard/Documents/Studienarbeit/latexVorlage/content/05kapitel.tex
 INPUT /home/leonard/Documents/Studienarbeit/latexVorlage/content/05kapitel.tex
 INPUT /home/leonard/Documents/Studienarbeit/latexVorlage/content/05kapitel.tex
 INPUT /home/leonard/Documents/Studienarbeit/latexVorlage/content/05kapitel.tex
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmro12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.gls
 INPUT /home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.gls
@@ -1829,7 +1830,6 @@ INPUT /home/leonard/Documents/Studienarbeit/latexVorlage/ads/appendix.tex
 INPUT /home/leonard/Documents/Studienarbeit/latexVorlage/ads/appendix.tex
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmri8.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmro12.tfm
 INPUT /home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.aux
 INPUT /home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.run.xml
 OUTPUT /home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.run.xml

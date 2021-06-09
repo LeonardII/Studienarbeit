@@ -54,8 +54,16 @@ Nachrichten zu senden oder zu empfangen ist anonym, dadurch sind Sender und Empf
 \cite{rosTopics:2019}
 Nodes lassen sich so austauschen und wiederverwenden.
 \cite{rosIntro:2018}
+Die Regelung des Fahrzeugs läuft auf einer ROS Architektur.
+
 
 \section{Architektur}
+Als Ausgangssituation für die Simulation wird die open source Simulationsumgebung des KITs genutzt.
+Diese ist eine Gazebo Simulation mit verschiedenen ROS Nodes.
+HIER ARCHITEKTUR BILD EINFÜGEN
+Die eigentliche Fahrsimulation des Fahrzeugs ist nicht Teil der Simulationsumgebung.
+Um das Fahrzeug zu bewegen erwarted die Simulation ein Topic auf dem neue Position gepublished werden.
+Da die Simulation aber den Lenkwinkel als Input nutzen soll, muss die Simulation dahingehend erweitert werden.
 
 
 \section{Hardware}
