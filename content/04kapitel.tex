@@ -24,8 +24,17 @@ Problem: Lenkwinkel muss irgendwie in eine Transformation des Fahrzeugs umgewand
 Der genaue Lösung wäre eine dynamische Simulation der Räder und Lenkung.
 Dies war nicht so einfach abzustimmen, da sich die Simulation anders Verhalten hat als das echte Fahrzeug.
 Vorläufige Lösung: Eine Rechnung die die Transformation abschätzt, aber sehr genau ist bei kleinen Lenkwinkel und hoher Fps.
-RAUSFINDEN WIE ICH DAS GEMACHT HABE
 
+Gegeben ist der Lenkwinkel alpha
+Die Geschwindigkeit des Fahrzeugs v
+Der daraus resultierende Vektor Lenkrichtung steering
+Position des Fahrzeugs p
+Orientierung des Fahrzeugs und der daraus resultierende Vektor direction
+
+Als erstes wird aus dem Lenkwinkel alpha der Vektor steering bestimmt.
+Danach wird die neue Position pNeu bestimmt mit pNeu = p + steering * (deltaTime * v)
+Die neue Orientierung des Fahrzeugs directionNeu wird erechnet mit directionNeu = direction rotieren um k*alpha
+dabei ist k Abhängig von der gefahrenen Strecke, sowie der Fahrzeuglänge.
 
 \section{dynamische Fortbewegung}
 Vier drehende Räder, Antrieb, Lenkung vorne.
