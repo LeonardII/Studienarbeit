@@ -6,14 +6,28 @@
 
 \section{Simulation als Datenproduktion}
 Strecke modelieren
+Man kann in der Simulation Strecken aufbauen. Dazu wird auch zu jeder Strecke eine Ideallinie für das Fahrzeug generiert.
+Diese Strecke besteht aus einer Liste von Punkten.
+Das Modul AutomaticDrive kann genutzt werden damit das Fahrzeug entlang dieser Strecke fährt.
+Das Fahrzeug fährt dann aber in gerader Linie von Punkt zu Punkt. 
+Dadurch kommt es in Kurven zu einem ruckeligen Fahrverhalten.
+WIE LÖST MAN DAS PROBLEM. INTERPOLATION IN KURVEN BEI AUTODRIVE
 
 Kamera entlang der Strecke fahren lassen
 
-Lenkwinkel berechnen, mit zwei Tangenten an der Strecke
+Um Algorithmen und Model in der Spurerkennung und Situationsklassifizierung zu verifizieren und verbessern, 
+benötigt der Auto drive noch eine Möglichkeit den Lenkwinkel auszugeben.
+Des Auto drive Modul platziert das Fahrzeug auf der Ideallinie so, dass 
+HIER WAR ICH NICHT GANZ genau
+
 
 
 \section{Kamera}
 Auflösung, Position, FoV eingestellt.
+
+Die Auflösung der Kamera ist 2x2 Pixel.
+Die Position und Orientierung der Kamera wird genau ermittelt, um die simulierte Kamera an die selbe Position zu bringen.
+ 
 
 Problem: Für die IPM umrechnung muss der Kamerafeed sehr genau den echten wiederspiegeln.
 Neue matrix wäre eine Scheiß Lösung.
