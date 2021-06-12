@@ -13,13 +13,32 @@ Das Fahrzeug fährt dann aber in gerader Linie von Punkt zu Punkt.
 Dadurch kommt es in Kurven zu einem ruckeligen Fahrverhalten.
 WIE LÖST MAN DAS PROBLEM. INTERPOLATION IN KURVEN BEI AUTODRIVE
 
+Bisher funktioniert die Simulation so dass das Fahrzeug um den Vorderachsenmittelpunkt V rotiert wird.
+Das Fahrzeug bildet eine Tangente zu Fahrspur am Vorderachsenmittelpunkt V.
+Dadurch ist die Kamera, die vorne am Fahrzeug montiert ist, zu weit in die Kurve rotiert.
+Bei einer Kurve sieht das dann so aus:
+BILD1
+Ein realistischers Abbild ist es, wenn das Fahrzeug eine Sekante mit dem Vorderachsenmittelpunkt V, dem Hinterachsenmittelpunkt und der Fahrspur bildet.
+In Kurven sind dann sowohl Vorderräder als auch Hinterräder auf der Fahrbahn.
+Dies ermöglicht eine genauere Orientierung für die Kamera.
+Um von der alten Orientierung auf die Neue zu kommen muss eine zusätzliche Rotation um den Vorderachsenmittelpunkt V addiert werden
+Der Ziel ist es den Hinterachsenmittelpunkt H auf die Fahrspur zu verschieben.
+Der Abstand zwischen H und V ist die Fahrzeuglänge l.
+Bedingung ist es das sich die Fahrzeuglänge l nicht verändert.
+Um den neuen Punkt HNeu zu finden wird der Schnittpunkt eines Kreises um V mit Radius l, mit der Fahrspur bestimmt.
+Den Winkel $\alpha$ ergibt sich aus den drei Punkten $\sphericalangle$ HVHNeu. 
+Die Rotation $\alpha$ um V wird auf das gesamte Fahrzeug angewendet.
+BILD2
+Im Vergleich von BILD1 und BILD2 wird deutlich wie sich der Winkel der Kamera ändert, welche auf Punkt V montiert ist.
+
+
 Kamera entlang der Strecke fahren lassen
 
 Um Algorithmen und Model in der Spurerkennung und Situationsklassifizierung zu verifizieren und verbessern, 
 benötigt der Auto drive noch eine Möglichkeit den Lenkwinkel auszugeben.
-Des Auto drive Modul platziert das Fahrzeug auf der Ideallinie so, dass 
-HIER WAR ICH NICHT GANZ genau
-
+Durch die realistischere Darstellung ist es nun trivial den Lenkwinkel zu bestimmen.
+Die Vorderräder sind ausgerichtet entlang der Tangente VT am Punkt V zur Fahrspur.
+Der Lenkwinkel $\beta$ ist der Winkel zwischen VT und der Richtung des Fahrzeugs. 
 
 
 \section{Kamera}
@@ -53,6 +72,7 @@ dabei ist k Abhängig von der gefahrenen Strecke, sowie der Fahrzeuglänge.
 \section{dynamische Fortbewegung}
 Vier drehende Räder, Antrieb, Lenkung vorne.
 Problem mit, Kräften, massen, Kollision...
+on...
 
 Die Räder des Fahrzeugs werden definiert innerhalb einem Link.
 Jeder der vier Links besitzt eine visuelle Komponente und ein Kollisions-Komponente.
@@ -71,3 +91,8 @@ BRAUCHT MAN TRANSMISSIONS ÜBERHAUPT, ODER REICHEN CONTROLLER AUF JOINTS?
 Um die Räder und die Länkung zu steuern, benötigt es einen Motor. 
 Für urdf gibt es hierfür Actuator und Transmissions.
 Eine Transmission verbindet einen Actuator mit einem Joint. 
+
+PID 
+Wie funktioniert PID???
+
+Für die Lenkung soll der 

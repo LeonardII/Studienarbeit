@@ -1,15 +1,15 @@
 [1] Config.pm:312> INFO - This is Biber 2.15
 [1] Config.pm:315> INFO - Logfile is 'dokumentation.blg'
-[210] biber:330> INFO - === Thu Mar 25, 2021, 17:29:26
-[246] Biber.pm:415> INFO - Reading 'dokumentation.bcf'
-[421] Biber.pm:952> INFO - Found 6 citekeys in bib section 0
-[458] Biber.pm:4334> INFO - Processing section 0
-[481] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliographie.bib' for section 0
-[482] bibtex.pm:1682> INFO - LaTeX decoding ...
-[493] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliographie.bib'
-[654] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[655] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[655] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de_DE'
-[655] Biber.pm:4168> INFO - No sort tailoring available for locale 'de_DE'
-[677] bbl.pm:651> INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
-[683] bbl.pm:754> INFO - Output to dokumentation.bbl
+[327] biber:330> INFO - === Sat Jun 12, 2021, 17:07:15
+[384] Biber.pm:415> INFO - Reading 'dokumentation.bcf'
+[678] Biber.pm:952> INFO - Found 6 citekeys in bib section 0
+[726] Biber.pm:4334> INFO - Processing section 0
+[764] Biber.pm:4523> INFO - Looking for bibtex format file 'bibliographie.bib' for section 0
+[767] bibtex.pm:1682> INFO - LaTeX decoding ...
+[785] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliographie.bib'
+[1127] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1127] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1127] Biber.pm:4162> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de_DE'
+[1128] Biber.pm:4168> INFO - No sort tailoring available for locale 'de_DE'
+[1167] bbl.pm:651> INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
+[1181] bbl.pm:754> INFO - Output to dokumentation.bbl
