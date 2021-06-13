@@ -2357,6 +2357,9 @@
     <bcf:citekey order="2">baumgartner:2002</bcf:citekey>
     <bcf:citekey order="3">dreyfus:1980</bcf:citekey>
     <bcf:citekey order="4">mustermann:2012</bcf:citekey>
+    <bcf:citekey order="5">rosTopics:2019</bcf:citekey>
+    <bcf:citekey order="6">rosIntro:2018</bcf:citekey>
+    <bcf:citekey order="7">ackerman:2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

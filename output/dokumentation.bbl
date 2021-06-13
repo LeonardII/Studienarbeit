@@ -143,6 +143,83 @@
       \field{title}{tolles Musterthema}
       \field{year}{2012}
     \endentry
+    \entry{rosIntro:2018}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6d2ee5676b068857db569005a9c6205a}{%
+           family={{Open Robotics}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{fullhash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{bibnamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authorbibnamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authornamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authorfullhash}{6d2ee5676b068857db569005a9c6205a}
+      \field{extraname}{1}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{ROS Introduction}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://wiki.ros.org/ROS/Introduction
+      \endverb
+      \verb{url}
+      \verb http://wiki.ros.org/ROS/Introduction
+      \endverb
+    \endentry
+    \entry{rosTopics:2019}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6d2ee5676b068857db569005a9c6205a}{%
+           family={{Open Robotics}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{fullhash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{bibnamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authorbibnamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authornamehash}{6d2ee5676b068857db569005a9c6205a}
+      \strng{authorfullhash}{6d2ee5676b068857db569005a9c6205a}
+      \field{extraname}{2}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{ROS Topics}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb http://wiki.ros.org/Topics
+      \endverb
+      \verb{url}
+      \verb http://wiki.ros.org/Topics
+      \endverb
+    \endentry
+    \entry{ackerman:2021}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f5e9419dd4a234f88e6a2dd27efe1c12}{%
+           family={{Robert Eisele}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5e9419dd4a234f88e6a2dd27efe1c12}
+      \strng{fullhash}{f5e9419dd4a234f88e6a2dd27efe1c12}
+      \strng{bibnamehash}{f5e9419dd4a234f88e6a2dd27efe1c12}
+      \strng{authorbibnamehash}{f5e9419dd4a234f88e6a2dd27efe1c12}
+      \strng{authornamehash}{f5e9419dd4a234f88e6a2dd27efe1c12}
+      \strng{authorfullhash}{f5e9419dd4a234f88e6a2dd27efe1c12}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Ackerman Steering}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.xarg.org/book/kinematics/ackerman-steering/
+      \endverb
+      \verb{url}
+      \verb https://www.xarg.org/book/kinematics/ackerman-steering/
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
