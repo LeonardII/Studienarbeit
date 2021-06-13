@@ -43,6 +43,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}dynamische Fortbewegung}{5}{section.4.5}%
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}PID Controller}{6}{subsection.4.5.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Ergebnis}{10}{chapter.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Anforderungen erreicht?}{10}{section.5.1}%

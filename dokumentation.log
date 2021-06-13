@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.11)  13 JUN 2021 14:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.11)  13 JUN 2021 15:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1416,14 +1416,13 @@ Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'dokumentation.bbl' not found.
-
-No file dokumentation.bbl.
+Package biblatex Info: ... file 'dokumentation.bbl' found.
+ (/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.bbl)
 Package biblatex Info: Reference section=0 on input line 19.
 Package biblatex Info: Reference segment=0 on input line 19.
 Package nag Info: Command \caption@xlabel not defined, skipping amendment on input line 19.
 Package nag Info: Command \hc@caption not defined, skipping amendment on input line 19.
-(/home/leonard/Documents/Studienarbeit/latexVorlage/ads/deckblatt.tex
+ (/home/leonard/Documents/Studienarbeit/latexVorlage/ads/deckblatt.tex
 <images/firma-deckblatt.png, id=31, 100.375pt x 100.375pt>
 File: images/firma-deckblatt.png Graphic file (type png)
 <use images/firma-deckblatt.png>
@@ -1515,6 +1514,12 @@ Overfull \hbox (46.0634pt too wide) in paragraph at lines 37--37
 
 ])
 Package tocbasic Info: character protrusion at toc deactivated on input line 58.
+ (/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.toc
+Overfull \hbox (3.22041pt too wide) detected at line 10
+ [][][]\T1/lmss/bx/n/12 VIII[][]
+ []
+
+)
 \tf@toc=\write7
  [4
 
@@ -1541,12 +1546,14 @@ Class scrreprt Warning: \float@addtolists detected!
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 70.
+ (/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.lof)
 \tf@lof=\write8
  [6
 
 
 ]
 Package tocbasic Info: character protrusion at lot deactivated on input line 74.
+ (/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.lot)
 \tf@lot=\write9
  [7
 
@@ -1566,53 +1573,28 @@ Class scrreprt Warning: \float@listhead detected!
 (scrreprt)              deprecated \float@listhead interface on input line 78.
 
 chapter without number
-
-Package hyperref Warning: old lol file detected, not used; run LaTeX again.
-
+(/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.lol)
 \tf@lol=\write10
-[8
+ [8
 
 
 ] (/home/leonard/Documents/Studienarbeit/latexVorlage/content/01kapitel.tex
 chapter 1.
 Package acronym Info: Label `acro:AGPL' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
-
-Package acronym Warning: Acronym `AGPL' is not defined on input line 5.
-
-
-Package acronym Warning: Acronym `AGPL' is not defined on input line 5.
-
-
-LaTeX Warning: Citation 'fsf:2007' on page 1 undefined on input line 5.
-
-
-LaTeX Warning: Citation 'baumgartner:2002' on page 1 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'dreyfus:1980' on page 1 undefined on input line 10.
-
-
-Overfull \hbox (50.24197pt too wide) in paragraph at lines 9--11
-[]\T1/lmr/m/n/12 (-20) Nur er-wähn-te Li-te-ra-tur-ver-wei-se wer-den auch im Li-te-ra-tur-ver-zeich-nis ge-druckt: [[]],
- []
-
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 12.
-<images//logo.png, id=97, 100.375pt x 100.375pt>
+<images//logo.png, id=169, 100.375pt x 100.375pt>
 File: images//logo.png Graphic file (type png)
 <use images//logo.png>
 Package pdftex.def Info: images//logo.png  used on input line 16.
 (pdftex.def)             Requested size: 159.36113pt x 159.33823pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 18.
-
-LaTeX Warning: Citation 'mustermann:2012' on page 1 undefined on input line 22.
-
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 24.
 
@@ -1633,30 +1615,6 @@ l.3 \chapter
 chapter 2.
 Package acronym Info: Label `acro:ROS' newly defined as it shall be overridden
 although it is yet undefined on input line 46.
-
-Package acronym Warning: Acronym `ROS' is not defined on input line 46.
-
-
-Package acronym Warning: Acronym `ROS' is not defined on input line 46.
-
-
-Package acronym Warning: Acronym `ROS' is not defined on input line 49.
-
-
-Package acronym Warning: Acronym `ROS' is not defined on input line 49.
-
-
-Package acronym Warning: Acronym `ROS' is not defined on input line 50.
-
-
-Package acronym Warning: Acronym `ROS' is not defined on input line 50.
-
-
-LaTeX Warning: Citation 'rosTopics:2019' on page 2 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'rosIntro:2018' on page 2 undefined on input line 56.
-
 ) (/home/leonard/Documents/Studienarbeit/latexVorlage/content/03kapitel.tex [2
 
 ]
@@ -1665,12 +1623,12 @@ chapter 3.
 
 ]
 chapter 4.
-<images//AutoDrive.png, id=133, 693.59125pt x 700.6175pt>
+<images//AutoDrive.png, id=203, 693.59125pt x 700.6175pt>
 File: images//AutoDrive.png Graphic file (type png)
 <use images//AutoDrive.png>
 Package pdftex.def Info: images//AutoDrive.png  used on input line 24.
 (pdftex.def)             Requested size: 157.73404pt x 159.33823pt.
-<images//ParallelSteering.png, id=136, 701.62125pt x 734.745pt>
+<images//ParallelSteering.png, id=206, 701.62125pt x 734.745pt>
 File: images//ParallelSteering.png Graphic file (type png)
 <use images//ParallelSteering.png>
 Package pdftex.def Info: images//ParallelSteering.png  used on input line 44.
@@ -1689,1137 +1647,99 @@ Overfull \vbox (7.89444pt too high) has occurred while \output is active []
  [6]
 File: images//ParallelSteering.png Graphic file (type png)
 <use images//ParallelSteering.png>
-Package pdftex.def Info: images//ParallelSteering.png  used on input line 137.
+Package pdftex.def Info: images//ParallelSteering.png  used on input line 140.
 (pdftex.def)             Requested size: 152.15173pt x 159.33823pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--140
+Underfull \hbox (badness 10000) in paragraph at lines 135--143
 \T1/lmr/m/n/12 (+20) Kur-ve so aus:
  []
 
 
-Package wrapfig Warning: Collision between wrapping environments on input line 149.
+Package wrapfig Warning: Collision between wrapping environments on input line 152.
 
-<images//Ackermann.png, id=172, 799.98875pt x 729.72626pt>
+<images//Ackermann.png, id=234, 799.98875pt x 729.72626pt>
 File: images//Ackermann.png Graphic file (type png)
 <use images//Ackermann.png>
-Package pdftex.def Info: images//Ackermann.png  used on input line 151.
+Package pdftex.def Info: images//Ackermann.png  used on input line 154.
 (pdftex.def)             Requested size: 174.67973pt x 159.33823pt.
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 154.
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 157.
 
 
-/home/leonard/Documents/Studienarbeit/latexVorlage/content/04kapitel.tex:174: LaTeX Error: \begin{equation} on input line 172 ended by \end{eqation}.
+Package wrapfig Warning: Collision between wrapping environments on input line 164.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.174 \end{eqation}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+<images//AckermannBerechnung.png, id=237, 680.5425pt x 671.50874pt>
+File: images//AckermannBerechnung.png Graphic file (type png)
+<use images//AckermannBerechnung.png>
+Package pdftex.def Info: images//AckermannBerechnung.png  used on input line 166.
+(pdftex.def)             Requested size: 230.68564pt x 227.62209pt.
 
-/home/leonard/Documents/Studienarbeit/latexVorlage/content/04kapitel.tex:174: Missing $ inserted.
-<inserted text> 
-                $
-l.174 \end{eqation}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+Overfull \hbox (48.59076pt too wide) in paragraph at lines 166--168
+ [][] 
+ []
 
-/home/leonard/Documents/Studienarbeit/latexVorlage/content/04kapitel.tex:174: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.174 \end{eqation}
-                   
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 171.
 
 
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
- [7 </home/leonard/Documents/Studienarbeit/latexVorlage/images//Ackermann.png>]
+ [7 </home/leonard/Documents/Studienarbeit/latexVorlage/images//Ackermann.png>]) (/home/leonard/Documents/Studienarbeit/latexVorlage/content/05kapitel.tex
+Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
-/home/leonard/Documents/Studienarbeit/latexVorlage/content/04kapitel.tex:178: LaTeX Error: \begin{equation} on input line 178 ended by \end{equation*}.
+ [8]
+Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 ...quation} \tan(\beta) = \frac{l}{r-w/2} \]
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+ [9 </home/leonard/Documents/Studienarbeit/latexVorlage/images//AckermannBerechnung.png>]
+chapter 5.
+) [10
 
+]
+chapter without number
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
+(/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.gls [11
 
-/home/leonard/Documents/Studienarbeit/latexVorlage/content/04kapitel.tex:179: LaTeX Error: \begin{document} ended by \end{eqation}.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.179 \end{eqation}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
+]) [12
 
-/home/leonard/Documents/Studienarbeit/latexVorlage/content/04kapitel.tex:180: LaTeX Error: \begin{equation} on input line 180 ended by \end{equation*}.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.180 ...ation}  \tan(\gamma) = \frac{l}{r+w/2} \]
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+] (/home/leonard/Documents/Studienarbeit/latexVorlage/ads/appendix.tex
+chapter without number
+[13
 
 
-/home/leonard/Documents/Studienarbeit/latexVorlage/content/04kapitel.tex:181: LaTeX Error: \begin{document} ended by \end{eqation}.
+])
+No complaints by nag.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.181 \end{eqation}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
-
-LaTeX Warning: Citation 'ackerman:2021' on page 8 undefined on input line 183.
-
-)
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ...e \pgffor@assign@after@code 
-                                                  \fi \pgffor@endgroup 
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...d {\pgffor@remember@once@code 
-                                                  }\fi \ifx \pgffor@remember...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...panded {\pgffor@remember@code 
-                                                  }\fi \endgroup \ifx \pgffo...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Extra \endgroup.
-\pgffor@endgroup ...@remember@code }\fi \endgroup 
-                                                  \ifx \pgffor@remember@once...
-l.94 	}
-       
-Things are pretty mixed up, but I think the worst is over.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ... /\expandafter {\pgffor@var 
-                                                  }\ifpgfutil@in@ \expandaft...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@var 
-                            
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.94 	}
-       
-Please don't say `\def cs{...}', say `\def\cs{...}'.
-I've inserted an inaccessible control sequence so that your
-definition will be completed without mixing me up too badly.
-You can recover graciously from this error, if you're
-careful; see exercise 27.2 in The TeXbook.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ... \pgffor@assign@before@code 
-                                                  \fi \expandafter \expandaf...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@body 
-                             
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ...e \pgffor@assign@after@code 
-                                                  \fi \pgffor@endgroup 
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...d {\pgffor@remember@once@code 
-                                                  }\fi \ifx \pgffor@remember...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...panded {\pgffor@remember@code 
-                                                  }\fi \endgroup \ifx \pgffo...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ... /\expandafter {\pgffor@var 
-                                                  }\ifpgfutil@in@ \expandaft...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@var 
-                            
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.94 	}
-       
-Please don't say `\def cs{...}', say `\def\cs{...}'.
-I've inserted an inaccessible control sequence so that your
-definition will be completed without mixing me up too badly.
-You can recover graciously from this error, if you're
-careful; see exercise 27.2 in The TeXbook.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ... \pgffor@assign@before@code 
-                                                  \fi \expandafter \expandaf...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@body 
-                             
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ...e \pgffor@assign@after@code 
-                                                  \fi \pgffor@endgroup 
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...d {\pgffor@remember@once@code 
-                                                  }\fi \ifx \pgffor@remember...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...panded {\pgffor@remember@code 
-                                                  }\fi \endgroup \ifx \pgffo...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ... /\expandafter {\pgffor@var 
-                                                  }\ifpgfutil@in@ \expandaft...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@var 
-                            
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.94 	}
-       
-Please don't say `\def cs{...}', say `\def\cs{...}'.
-I've inserted an inaccessible control sequence so that your
-definition will be completed without mixing me up too badly.
-You can recover graciously from this error, if you're
-careful; see exercise 27.2 in The TeXbook.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ... \pgffor@assign@before@code 
-                                                  \fi \expandafter \expandaf...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@body 
-                             
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ...e \pgffor@assign@after@code 
-                                                  \fi \pgffor@endgroup 
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...d {\pgffor@remember@once@code 
-                                                  }\fi \ifx \pgffor@remember...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...panded {\pgffor@remember@code 
-                                                  }\fi \endgroup \ifx \pgffo...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ... /\expandafter {\pgffor@var 
-                                                  }\ifpgfutil@in@ \expandaft...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@var 
-                            
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.94 	}
-       
-Please don't say `\def cs{...}', say `\def\cs{...}'.
-I've inserted an inaccessible control sequence so that your
-definition will be completed without mixing me up too badly.
-You can recover graciously from this error, if you're
-careful; see exercise 27.2 in The TeXbook.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ... \pgffor@assign@before@code 
-                                                  \fi \expandafter \expandaf...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@body 
-                             
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ...e \pgffor@assign@after@code 
-                                                  \fi \pgffor@endgroup 
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...d {\pgffor@remember@once@code 
-                                                  }\fi \ifx \pgffor@remember...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...panded {\pgffor@remember@code 
-                                                  }\fi \endgroup \ifx \pgffo...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ... /\expandafter {\pgffor@var 
-                                                  }\ifpgfutil@in@ \expandaft...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@var 
-                            
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.94 	}
-       
-Please don't say `\def cs{...}', say `\def\cs{...}'.
-I've inserted an inaccessible control sequence so that your
-definition will be completed without mixing me up too badly.
-You can recover graciously from this error, if you're
-careful; see exercise 27.2 in The TeXbook.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ... \pgffor@assign@before@code 
-                                                  \fi \expandafter \expandaf...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@body 
-                             
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@invokebody ...e \pgffor@assign@after@code 
-                                                  \fi \pgffor@endgroup 
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...d {\pgffor@remember@once@code 
-                                                  }\fi \ifx \pgffor@remember...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...panded {\pgffor@remember@code 
-                                                  }\fi \endgroup \ifx \pgffo...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ...dafter /\expandafter {\pgffor@var 
-                                                  }\ifpgfutil@in@ \expandaft...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@var 
-                            
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.94 	}
-       
-Please don't say `\def cs{...}', say `\def\cs{...}'.
-I've inserted an inaccessible control sequence so that your
-definition will be completed without mixing me up too badly.
-You can recover graciously from this error, if you're
-careful; see exercise 27.2 in The TeXbook.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ... \else \pgffor@assign@before@code 
-                                                  \fi \expandafter \expandaf...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@body 
-                             
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ...y \else \pgffor@assign@after@code 
-                                                  \fi \pgffor@endgroup \pgff...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...d {\pgffor@remember@once@code 
-                                                  }\fi \ifx \pgffor@remember...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...panded {\pgffor@remember@code 
-                                                  }\fi \endgroup \ifx \pgffo...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ...dafter /\expandafter {\pgffor@var 
-                                                  }\ifpgfutil@in@ \expandaft...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@var 
-                            
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.94 	}
-       
-Please don't say `\def cs{...}', say `\def\cs{...}'.
-I've inserted an inaccessible control sequence so that your
-definition will be completed without mixing me up too badly.
-You can recover graciously from this error, if you're
-careful; see exercise 27.2 in The TeXbook.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ... \else \pgffor@assign@before@code 
-                                                  \fi \expandafter \expandaf...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@body 
-                             
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ...y \else \pgffor@assign@after@code 
-                                                  \fi \pgffor@endgroup \pgff...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...d {\pgffor@remember@once@code 
-                                                  }\fi \ifx \pgffor@remember...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...panded {\pgffor@remember@code 
-                                                  }\fi \endgroup \ifx \pgffo...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ...dafter /\expandafter {\pgffor@var 
-                                                  }\ifpgfutil@in@ \expandaft...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@var 
-                            
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.94 	}
-       
-Please don't say `\def cs{...}', say `\def\cs{...}'.
-I've inserted an inaccessible control sequence so that your
-definition will be completed without mixing me up too badly.
-You can recover graciously from this error, if you're
-careful; see exercise 27.2 in The TeXbook.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ... \else \pgffor@assign@before@code 
-                                                  \fi \expandafter \expandaf...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@body 
-                             
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ...y \else \pgffor@assign@after@code 
-                                                  \fi \pgffor@endgroup \pgff...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...d {\pgffor@remember@once@code 
-                                                  }\fi \ifx \pgffor@remember...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...panded {\pgffor@remember@code 
-                                                  }\fi \endgroup \ifx \pgffo...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ...dafter /\expandafter {\pgffor@var 
-                                                  }\ifpgfutil@in@ \expandaft...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@var 
-                            
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.94 	}
-       
-Please don't say `\def cs{...}', say `\def\cs{...}'.
-I've inserted an inaccessible control sequence so that your
-definition will be completed without mixing me up too badly.
-You can recover graciously from this error, if you're
-careful; see exercise 27.2 in The TeXbook.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ... \else \pgffor@assign@before@code 
-                                                  \fi \expandafter \expandaf...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@body 
-                             
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ...y \else \pgffor@assign@after@code 
-                                                  \fi \pgffor@endgroup \pgff...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...d {\pgffor@remember@once@code 
-                                                  }\fi \ifx \pgffor@remember...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...panded {\pgffor@remember@code 
-                                                  }\fi \endgroup \ifx \pgffo...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ...dafter /\expandafter {\pgffor@var 
-                                                  }\ifpgfutil@in@ \expandaft...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@var 
-                            
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.94 	}
-       
-Please don't say `\def cs{...}', say `\def\cs{...}'.
-I've inserted an inaccessible control sequence so that your
-definition will be completed without mixing me up too badly.
-You can recover graciously from this error, if you're
-careful; see exercise 27.2 in The TeXbook.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ... \else \pgffor@assign@before@code 
-                                                  \fi \expandafter \expandaf...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@body 
-                             
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ...y \else \pgffor@assign@after@code 
-                                                  \fi \pgffor@endgroup \pgff...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...d {\pgffor@remember@once@code 
-                                                  }\fi \ifx \pgffor@remember...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...panded {\pgffor@remember@code 
-                                                  }\fi \endgroup \ifx \pgffo...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ...dafter /\expandafter {\pgffor@var 
-                                                  }\ifpgfutil@in@ \expandaft...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@var 
-                            
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.94 	}
-       
-Please don't say `\def cs{...}', say `\def\cs{...}'.
-I've inserted an inaccessible control sequence so that your
-definition will be completed without mixing me up too badly.
-You can recover graciously from this error, if you're
-careful; see exercise 27.2 in The TeXbook.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ... \else \pgffor@assign@before@code 
-                                                  \fi \expandafter \expandaf...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-<recently read> \pgffor@body 
-                             
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ...y \else \pgffor@assign@after@code 
-                                                  \fi \pgffor@endgroup \pgff...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...d {\pgffor@remember@once@code 
-                                                  }\fi \ifx \pgffor@remember...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@endgroup ...panded {\pgffor@remember@code 
-                                                  }\fi \endgroup \ifx \pgffo...
-l.94 	}
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94: Undefined control sequence.
-\pgffor@next ...dafter /\expandafter {\pgffor@var 
-                                                  }\ifpgfutil@in@ \expandaft...
-l.94 	}
-       
-(That makes 100 errors; please try again.) 
+ [14] (/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.aux)
+Package logreq Info: Writing requests to 'dokumentation.run.xml'.
+ ) 
 Here is how much of TeX's memory you used:
- 41623 strings out of 479383
- 785544 string characters out of 5875830
- 1858865 words of memory out of 5000000
- 57700 multiletter control sequences out of 15000+600000
- 493119 words of font info for 139 fonts, out of 8000000 for 9000
+ 41979 strings out of 479383
+ 792169 string characters out of 5875830
+ 1859145 words of memory out of 5000000
+ 57891 multiletter control sequences out of 15000+600000
+ 503737 words of font info for 149 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  110i,10n,113p,10678b,2319s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist, replaced by a fixed one
 
-/home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.tex:94:  ==> Fatal error occurred, no output PDF file produced!
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
+
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on /home/leonard/Documents/Studienarbeit/latexVorlage/dokumentation.pdf (23 pages, 762153 bytes).
+PDF statistics:
+ 465 PDF objects out of 1000 (max. 8388607)
+ 388 compressed objects within 4 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 33120 words of extra memory for PDF output out of 35830 (max. 10000000)
+

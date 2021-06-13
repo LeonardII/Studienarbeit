@@ -115,9 +115,19 @@ Die Launchdatei wird in der master.launch-Datei wie folgt aufgerufen:
 \end{lstlisting}
 Die Controller werden nur initialisiert, wenn AutomaticDrive nicht genutzt wird.
 
-PID 
-Wie funktioniert PID???
+\subsection{PID Regelung}
+PID Regler werden eingesetzt um eine bestimmte Regelgröße zu regeln. 
+Der Regler vergleicht den Soll- und Istwert der Regelgröße und versucht deren Differenz zu minimieren.
+Dieses Ziel verfolgt er über drei Komponenten: 
+Die Proportional-Komponente, welche abhängig von der aktuellen Differenz zwischen Ist- und Sollwert ist.
+Die Integral-Komponente, welche abhängig von der vergangenen Differenz zwischen Ist- und Sollwert ist.
+Die Differentail-Komponente, welche abhängig von der zukünftigen Differenz zwischen Ist- und Sollwert ist.
+Wie groß der Einfluss der jeweiligen Komponente ist lässt sich über die Parameter P,I und D steuern.
+\cite{PIDRegler:2020}
 
+BILD PID IST SOLL IN SIMU
+
+\subsection{Ackerman Lenkung}
 Ziel der Simulation ist es bei gegebenem Lenkwinkel und Geschwindigkeit das Fahrzeug entsprechend zu bewegen.
 Die Geschwindigkeit wird an die zwei Geschwindigkeitscontroller gegeben.
 Der Lenkwinkel wird an die zwei Lenkcontroller gegeben.
@@ -155,8 +165,8 @@ Diese sieht in einer Kurve so aus:
 Im Gegensatz zu Parallellenkung sind nun auch die Vorderräder entlang einem Kreis um den Kurvenmittelpunkt ausgerichtet.
 Das linke Rad hat nun einen anderen Winkel wie das rechte Rad.
 
-Wie die Ackermann-Lenkung, per Hardware, im echten Fahrzeug umgesetzt ist hier unwichtig.
-Um die Ackermann-Lenkung zu simulieren, können aus einem gegebenen Lenkwinkel, jeweils der Winkel für das rechte und linke Rad berechnet werden.
+Wie die Ackerman-Lenkung, per Hardware, im echten Fahrzeug umgesetzt ist hier unwichtig.
+Um die Ackerman-Lenkung zu simulieren, können aus einem gegebenen Lenkwinkel, jeweils der Winkel für das rechte und linke Rad berechnet werden.
 
 \begin{wrapfigure}{r}{.4\textwidth}
     \centering
@@ -191,7 +201,7 @@ Umformung Gleichung \ref{eq:1}
 \begin{equation} \label{eq:4}
     r = \frac{l}{\tan(\alpha)}
 \end{equation}
-Setzte man Gleichung \ref{eq:1} in Gleichung \ref{eq:2} ein so erhält man
+Setzte man Gleichung \ref{eq:4} in Gleichung \ref{eq:2} ein so erhält man
 \[ \tan(\beta) = \frac{l}{\frac{l}{\tan(\alpha)}-w/2}\] 
 \[ \iff \beta = \arctan(\frac{l}{\frac{l}{\tan(\alpha)}-w/2})\] 
 Analog dazu erhält man die Gleichung für $\gamma$
