@@ -146,6 +146,7 @@ Das Kollisions-Objekt wird benötigt um mit dem Boden zu kollidieren um auf dies
 Jeder physikalisch simulierte Link benötigt einen inertial-Tag.
 Dieser definiert die Masse "mass" und die Massenverteilung als inertia Tensor "inertia".
 
+\subsection*{Joints}
 Damit sich ein Rad drehen kann, wird es mit einem Joint an dem Fahrzeug befestigt.
 Ein Joint ist eine Verbindung zwischen zwei Links. 
 In einem Joint wird definiert wie sich die zwei Links zueinander verhalten.
@@ -159,8 +160,10 @@ Es gibt die unterschiedliche Typen von Joints:
     \item planar - Erlaubt Bewegung auf einer Ebene
 \end{itemize}
 \cite{Joint}
+
+\subsection*{Drehen und Lenken}
 Die Räder werden alle mit einem Joint mit dem Fahrzeug verbunden.
-Der Typ des Joints ist für die Räder "continuos". Das bedeuted, dass sich die Räder ohne Einschränkung um eine Achse drehen können.
+Der Typ des Joints ist für die Räder continuos. Das bedeuted, dass sich die Räder ohne Einschränkung um eine Achse drehen können.
 Die Hinterräder werden direkt mit der Basis des Fahrzeugs verbunden.
 Die Vorderräder werden mit einem Zwischenstück verbunden.
 Dieses Zwischenstück wird benötigt, da die Vorderräder einen zweiten Joint benötigen um eine Lenkbewegung durchzuführen.
@@ -168,8 +171,12 @@ Zwei Links können nur mit einem Joint miteinander verbunden werden.
 Vom Mittelstück zur Basis gibt es einen Joint, der die Lenkung möglich macht.
 Dieser Joint ist vom Typ revolute. 
 Der Joint dreht sich auf der Achse, orthogonal zum Boden.
-Er hat Limits bei +-60°. 
-
+Er hat Limits bei +-60°.\\
+Das Vorderrad kann sich nun um die eigene Radachse drehen, und es kann sich mit dem Mittelstück um die z-Achse drehen.
+Der folgende Code definiert das linke Vorderrad "reifen\_front\_links" mit visual, collision und inertial.
+Danach wird das Mittelstück "links\_front\_steering" definiert, welches eine einfache Box ist.
+Das Mittelstück wird mit der Basis (chassis) verbunden mit einem revolute Joint. 
+Das Vorderrad mit mit dem Mittelstück verbunden mit einem continous Joint.
 \begin{lstlisting}
 <link name="reifen_front_links">
     <visual>
@@ -185,7 +192,7 @@ Er hat Limits bei +-60°.
         <origin xyz="0 0 0" rpy="1.57075 0 0"/>
         <geometry>
             <cylinder length ="0.02" radius="0.03"/>
-    </geometry>
+        </geometry>
     </collision>
     <inertial>
         <inertia ixx="0.0001" ixy="0" ixz="0" iyx="0" iyy="0.0001" iyz="0" izx="0" izy="0" izz="0.0001"/>
@@ -222,11 +229,20 @@ Dieser Code produziert das:
 \begin{center}
     \includegraphics[height=.5\textwidth]{LeftWheel.png}
 \end{center}
+Hier ist das Linke Vorderrad zu sehen und das dazugehörige Mittelstück.
+Man erkennt die Zwei Joints, welche jeweils Rotation um eine Achse erlauben. 
 
+\subsection*{Actuator und Transmissions}
 Um die Räder und die Länkung zu steuern, benötigt es einen Motor. 
 Für urdf gibt es hierfür Actuator und Transmissions.
 Eine Transmission verbindet einen Actuator mit einem Joint. 
-
+Der Actuator, zu Deutsch "Antrieb", gibt eine Bewegung über die Transmission an den Joint weiter.
+In diesem Fall ist es eine Drehbewegung, da nur revolute und continous Joints genutzt werden.
+Der Actuator definiert das Hardware Interface.
+Bei den Hinterradantrieben wird ein Velocity Interface genutzt, da die zu steuernde Größe die Geschwindigkeit des Rads, bzw. des Joints ist.
+Für die Vorderradlenkung wird ein Effort Interface genutzt, da die zu steuernde Größe der Winkel des Rads ist.
+Außerdem kann der Actuator eine machanische Reduktion der Drehgeschwindigkeit definieren.
+Die Definition einer Transmission mit Actuator sieht so aus: 
 \begin{lstlisting}
 <transmission name="transmission_front_left_wheel">
     <type>transmission_interface/SimpleTransmission</type>
@@ -240,12 +256,12 @@ Eine Transmission verbindet einen Actuator mit einem Joint.
 </transmission>
 \end{lstlisting}
 
-Controller
+\subsection*{Controller}
 Um die Actuator zu steuern kann man das Package ros\_control nutzten.
 Dies bietet eine Reihe verschiedener Controller.
 Controller können einen Actuator nach PID-Steuerung steuern.
 Um die Controller zu benutzen wird ein neues Package erstellt.
-Das Package $/simulation/src/gazebo_controller$ beinhaltet eine Launchdatei und eine Parameterdatei.
+Das Package $/simulation/src/gazebo\_controller$ beinhaltet eine Launchdatei und eine Parameterdatei.
 Die Parameterdatei definiert die vier verschiedenen Controller.
 Zwei für den Hinterradantrieb und zwei für die Vorderlenkung.
 Die Controller für den Antrieb sind JointVelocityController, die Controller für die Lenkung sind JointPositionController.
@@ -268,9 +284,24 @@ Die Differentail-Komponente, welche abhängig von der zukünftigen Differenz zwi
 Wie groß der Einfluss der jeweiligen Komponente ist lässt sich über die Parameter P,I und D steuern.
 \cite{PIDRegler:2020}
 
+Alle vier Controller benötigen angepasste PID-Parameter.
+Schauen wir uns zuerst die Vorderradlenkung an. 
+Dafür wird die Simulation mit der Fahrzeugsteuerung verbunden.
+Aus der Fahrzeugsteuerung werden nun Lenkwinkel an die Simulation geschickt.
+Dieser Lenkwinkel ist der Sollwert, und wird durch die rote Linie im Diagram dargestellt.
 \begin{center}
     \includegraphics[height=.5\textwidth]{Türkis15-2-5Pink15-0-0.png}
 \end{center}
+Auf diesen Sollwert hören zwei Controller.
+Der Controller für das linke Rad hat eine PID-Einstellung von 15-0-0.
+Sein Istwert ist durch die pinke Linie im Diagram dargestellt.
+Der Controller für das rechte Rad hat eine PID-Einstellung von 15-2-5.
+Sein Istwert ist durch die türkisene Linie im Diagram dargestellt.\\
+Bis ca. t = 144 ist der pinkene Controller ein wenig näher am Sollwert als der Türkisene.
+Aber ab t = 144.5 überkorrigiert sich der pinke Controller ständig. 
+Im Gegensatzt dazu ist der türkisene Controller ab t = 144.5 näher am Sollwert, da er nicht überkorrigiert.
+Der türkisene Controller hat einen D-Wert von 5. Dadurch überkorrigiert er nicht ständig sonder berührt die Sollwert Kurve eher.\\
+Durch so Tests können PID-Parameter optimiert werden, sowohl für die Lenkung als auch für den Antrieb des Fahrzeugs.
 
 \subsection{Ackerman Lenkung}
 Ziel der Simulation ist es bei gegebenem Lenkwinkel und Geschwindigkeit das Fahrzeug entsprechend zu bewegen.

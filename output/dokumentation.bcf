@@ -2364,8 +2364,9 @@
     <bcf:citekey order="9">KITcar:simulation_evaluation</bcf:citekey>
     <bcf:citekey order="10">KITcar:simulation_groundtruth</bcf:citekey>
     <bcf:citekey order="11">KITcar:gazeboSimulationPackage</bcf:citekey>
-    <bcf:citekey order="12">PIDRegler:2020</bcf:citekey>
-    <bcf:citekey order="13">ackerman:2021</bcf:citekey>
+    <bcf:citekey order="12">Joint</bcf:citekey>
+    <bcf:citekey order="13">PIDRegler:2020</bcf:citekey>
+    <bcf:citekey order="14">ackerman:2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

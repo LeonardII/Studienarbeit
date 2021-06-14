@@ -199,6 +199,31 @@
       \verb http://wiki.ros.org/Topics
       \endverb
     \endentry
+    \entry{Joint}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ab6d27fa101600c0400e7b5080a1a51d}{%
+           family={{Ricardo Angeli}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab6d27fa101600c0400e7b5080a1a51d}
+      \strng{fullhash}{ab6d27fa101600c0400e7b5080a1a51d}
+      \strng{bibnamehash}{ab6d27fa101600c0400e7b5080a1a51d}
+      \strng{authorbibnamehash}{ab6d27fa101600c0400e7b5080a1a51d}
+      \strng{authornamehash}{ab6d27fa101600c0400e7b5080a1a51d}
+      \strng{authorfullhash}{ab6d27fa101600c0400e7b5080a1a51d}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Joint Element}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://wiki.ros.org/urdf/XML/joint
+      \endverb
+      \verb{url}
+      \verb http://wiki.ros.org/urdf/XML/joint
+      \endverb
+    \endentry
     \entry{ackerman:2021}{online}{}
       \name{author}{1}{}{%
         {{hash=f5e9419dd4a234f88e6a2dd27efe1c12}{%
