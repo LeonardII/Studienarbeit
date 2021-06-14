@@ -111,21 +111,44 @@ Wenn bei der Transformation ein solches Bild herauskommt, stimmt die Kameraplatz
 
 
 \section{statische Fortbewegung}
-Problem: Lenkwinkel muss irgendwie in eine Transformation des Fahrzeugs umgewandelt werden.
+Der Lenkwinkel muss irgendwie in eine Transformation des Fahrzeugs umgewandelt werden.
 Der genaue Lösung wäre eine dynamische Simulation der Räder und Lenkung.
-Dies war nicht so einfach abzustimmen, da sich die Simulation anders Verhalten hat als das echte Fahrzeug.
-Vorläufige Lösung: Eine Rechnung die die Transformation abschätzt, aber sehr genau ist bei kleinen Lenkwinkel und hoher Fps.
+Dies ist ein sehr großer Aufwand und kann viele Probleme bereiten, da es es bei einer dynamischen Simulation sehr viele Variablen gibt.
+Mit der statische Fortbewegung versucht man das komplexe Problem auf möglichst einfachem Wege zu lösen. 
+Eine Rechnung soll die Transformation möglichst genau abschätzten. 
 
-Gegeben ist der Lenkwinkel alpha
-Die Geschwindigkeit des Fahrzeugs v
-Der daraus resultierende Vektor Lenkrichtung steering
-Position des Fahrzeugs p
-Orientierung des Fahrzeugs und der daraus resultierende Vektor direction
+Für Rechnung sind folgende Parameter gegeben:
+\begin{itemize}
+    \item[] Lenkwinkel $\alpha$
+    \item[] Vorderachsenmittelpunkt V
+    \item[] Richtung des Fahrzeugs $\vec{d}$
+    \item[] Geschwindigkeit des Fahrzeugs $\vec{v}$
+    \item[] deltaTime seit dem letzten Update dt
+\end{itemize}
 
-Als erstes wird aus dem Lenkwinkel alpha der Vektor steering bestimmt.
-Danach wird die neue Position pNeu bestimmt mit pNeu = p + steering * (deltaTime * v)
-Die neue Orientierung des Fahrzeugs directionNeu wird erechnet mit directionNeu = direction rotieren um k*alpha
-dabei ist k Abhängig von der gefahrenen Strecke, sowie der Fahrzeuglänge.
+\begin{center}
+    \includegraphics[height=.5\textwidth]{static.png}
+\end{center}
+
+
+Als erstes wird aus dem Lenkwinkel $\alpha$ der Vektor $\vec{s}$ bestimmt.
+Außerdem wird die delta Strecke bestimmt. Also die Strecke, die das Fahrzeug seit dem letzten Update gefahren ist.
+\[
+    ds = dt * |\vec{v}|
+\]
+Danach wird die neue Position des Vorderachsenmittelpunkts bestimmt. 
+Von der alten Position geht man ein bisschen Richtung der Lenkrichtung $/vec{s}$, je nachdem wie viel Zeit vergangen ist oder wie schnell man ist.
+\[
+    V_{Neu} = V + \vec{s} * ds 
+\]
+Um die Rotation zu approximieren gibt es eine Konstanten k. k ist abhängig von der Fahrzeuglänge und kann frei gewählt werden.
+\[
+    dr = k*ds*\alpha
+\]
+Die neue Orientierung des Fahrzeugs erhält man indem man die neue Rotation dr auf die alte Orientierung addiert.
+\[
+    \vec{d_{Neu}} = rotate(\vec{d}, dr)
+\]
 
 \section{dynamische Fortbewegung}
 Die statische Fortbewegung war nur eine Übergangslösung.

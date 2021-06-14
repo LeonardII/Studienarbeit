@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.11)  14 JUN 2021 07:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.11)  14 JUN 2021 09:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1677,8 +1677,7 @@ Package biblatex Info: Data encoding 'utf8' specified.
 (biblatex)             No need to reencode data.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'dokumentation.bbl' found.
-
-(output/dokumentation.bbl)
+ (./dokumentation.bbl)
 Package biblatex Info: Reference section=0 on input line 19.
 Package biblatex Info: Reference segment=0 on input line 19.
 Package nag Info: Command \caption@xlabel not defined, skipping amendment on in
@@ -1901,119 +1900,129 @@ Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
 [9]
+<images//static.png, id=211, 586.19pt x 676.5275pt>
+File: images//static.png Graphic file (type png)
+<use images//static.png>
+Package pdftex.def Info: images//static.png  used on input line 130.
+(pdftex.def)             Requested size: 197.22682pt x 227.62209pt.
+
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
 [10 <./images//ipm.png>]
+Overfull \vbox (7.89444pt too high) has occurred while \output is active []
+
+
+[11 <./images//static.png>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-59.
+80.
  (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-[11]
+[12]
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-[12]
-<images//LeftWheel.png, id=257, 599.23875pt x 560.0925pt>
+[13]
+<images//LeftWheel.png, id=265, 599.23875pt x 560.0925pt>
 File: images//LeftWheel.png Graphic file (type png)
 <use images//LeftWheel.png>
-Package pdftex.def Info: images//LeftWheel.png  used on input line 234.
+Package pdftex.def Info: images//LeftWheel.png  used on input line 255.
 (pdftex.def)             Requested size: 243.53157pt x 227.62209pt.
 
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-[13 <./images//LeftWheel.png>]
+[14 <./images//LeftWheel.png>]
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-[14]
-<images//Türkis15-2-5Pink15-0-0.png, id=304, 721.69624pt x 707.64375pt>
+[15]
+<images//Türkis15-2-5Pink15-0-0.png, id=312, 721.69624pt x 707.64375pt>
 File: images//Türkis15-2-5Pink15-0-0.png Graphic file (type png)
 <use images//Türkis15-2-5Pink15-0-0.png>
 Package pdftex.def Info: images//Türkis15-2-5Pink15-0-0.png  used on input lin
-e 297.
+e 318.
 (pdftex.def)             Requested size: 232.13683pt x 227.62209pt.
 
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-[15 <./images//Türkis15-2-5Pink15-0-0.png>]
+[16 <./images//Türkis15-2-5Pink15-0-0.png>]
 File: images//ParallelSteering.png Graphic file (type png)
 <use images//ParallelSteering.png>
-Package pdftex.def Info: images//ParallelSteering.png  used on input line 326.
+Package pdftex.def Info: images//ParallelSteering.png  used on input line 347.
 (pdftex.def)             Requested size: 217.36116pt x 227.62209pt.
 
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-[16]
-<images//Ackermann.png, id=319, 799.98875pt x 729.72626pt>
+[17]
+<images//Ackermann.png, id=327, 799.98875pt x 729.72626pt>
 File: images//Ackermann.png Graphic file (type png)
 <use images//Ackermann.png>
-Package pdftex.def Info: images//Ackermann.png  used on input line 337.
+Package pdftex.def Info: images//Ackermann.png  used on input line 358.
 (pdftex.def)             Requested size: 249.53201pt x 227.62209pt.
-<images//AckermannBerechnung.png, id=320, 680.5425pt x 671.50874pt>
+<images//AckermannBerechnung.png, id=328, 680.5425pt x 671.50874pt>
 File: images//AckermannBerechnung.png Graphic file (type png)
 <use images//AckermannBerechnung.png>
-Package pdftex.def Info: images//AckermannBerechnung.png  used on input line 34
-6.
+Package pdftex.def Info: images//AckermannBerechnung.png  used on input line 36
+7.
 (pdftex.def)             Requested size: 230.68564pt x 227.62209pt.
 
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-[17 <./images//Ackermann.png>]
+[18 <./images//Ackermann.png>]
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-[18 <./images//AckermannBerechnung.png>]) (./content/04kapitel.tex
+[19 <./images//AckermannBerechnung.png>]) (./content/04kapitel.tex
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-[19]
+[20]
 chapter 4.
-<images//autoFoto.jpg, id=346, 1606.0pt x 1204.5pt>
+<images//autoFoto.jpg, id=352, 1606.0pt x 1204.5pt>
 File: images//autoFoto.jpg Graphic file (type jpg)
 <use images//autoFoto.jpg>
 Package pdftex.def Info: images//autoFoto.jpg  used on input line 17.
 (pdftex.def)             Requested size: 182.09488pt x 136.5572pt.
-<images//simuFoto.png, id=347, 830.10126pt x 633.36626pt>
+<images//simuFoto.png, id=353, 830.10126pt x 633.36626pt>
 File: images//simuFoto.png Graphic file (type png)
 <use images//simuFoto.png>
 Package pdftex.def Info: images//simuFoto.png  used on input line 18.
 (pdftex.def)             Requested size: 182.09488pt x 138.9351pt.
-<images//DynamischeLenkung.png, id=348, 1502.61375pt x 896.34875pt>
+<images//DynamischeLenkung.png, id=354, 1502.61375pt x 896.34875pt>
 File: images//DynamischeLenkung.png Graphic file (type png)
 <use images//DynamischeLenkung.png>
 Package pdftex.def Info: images//DynamischeLenkung.png  used on input line 24.
 (pdftex.def)             Requested size: 381.56795pt x 227.62209pt.
-[20
+[21
 
  <./images//autoFoto.jpg> <./images//simuFoto.png>])
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-[21 <./images//DynamischeLenkung.png>]
+[22 <./images//DynamischeLenkung.png>]
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-[22]
+[23]
 chapter without number
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
-(output/dokumentation.gls) [23
+(output/dokumentation.gls) [24
 
 
 
 ] (./ads/appendix.tex
 chapter without number
-[24
+[25
 
 
 ])
@@ -2022,21 +2031,21 @@ No complaints by nag.
 Overfull \vbox (7.89444pt too high) has occurred while \output is active []
 
 
-[25] (output/dokumentation.aux)
+[26] (output/dokumentation.aux)
 Package logreq Info: Writing requests to 'dokumentation.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 42060 strings out of 479383
- 791020 string characters out of 5875830
- 2013118 words of memory out of 5000000
- 57905 multiletter control sequences out of 15000+600000
+ 42067 strings out of 479383
+ 791134 string characters out of 5875830
+ 2012119 words of memory out of 5000000
+ 57910 multiletter control sequences out of 15000+600000
  481660 words of font info for 126 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  110i,10n,113p,10627b,2319s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
-nts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.
-enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-d
-ist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/
+nts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
+}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist
+/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf-dist/fonts/type1/public/lm/
 lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share
 /texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1
 /public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></u
@@ -2048,10 +2057,10 @@ lmro12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type
 1/public/lm/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
 
-Output written on output/dokumentation.pdf (30 pages, 1390491 bytes).
+Output written on output/dokumentation.pdf (31 pages, 1433943 bytes).
 PDF statistics:
- 564 PDF objects out of 1000 (max. 8388607)
- 475 compressed objects within 5 object streams
- 178 named destinations out of 1000 (max. 500000)
- 25443 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 570 PDF objects out of 1000 (max. 8388607)
+ 479 compressed objects within 5 object streams
+ 179 named destinations out of 1000 (max. 500000)
+ 25448 words of extra memory for PDF output out of 29859 (max. 10000000)
 
