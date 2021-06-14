@@ -17,11 +17,20 @@ Dies ist deutlich zeitintensiefer.
     \includegraphics[width=.4\textwidth]{autoFoto.jpg}
     \includegraphics[width=.4\textwidth]{simuFoto.png}
 \end{center}
-Mit der dynamischen Fahrtsimulation, kann jetzt die Fahrtsteuerung
+Mit der dynamischen Fahrtsimulation, kann jetzt die Fahrtsteuerung unabhängig von Hardware ausgeführt werden.
+
 
 \begin{center}
     \includegraphics[height=.5\textwidth]{DynamischeLenkung.png}
 \end{center}
+Dieses Bild zeigt wie die Fahrtsteuerung mit der dynamsichen Fortbewegung funktioniert.
+Zur Übersicht sind nur die Räder sichtbar und der Rest des Fahrzeugs ist unsichtbar.
+Links oben im Bild sieht man das Kamerabild, welches von der Simulation an die Fahrtsteuerung geschickt wird.
+Die Fahrtsteuerung berechnet auf Basis dieses Bildes eine Fahrtrichtung in Form einer Trajektorie.
+Unten links sieht man die Trajektorie. Daraus resultiert dann ein Lenkwinkel. 
+Der Lenkwinkel wird an die Simulation geschickt. 
+Die Simulation passt, bassierend auf dem Lenkwinkel, die Lenkung der Vorderräder an.
+Die Räder sind Rechts im Bild zu sehen.
 
 
 \section{Herausforderungen}

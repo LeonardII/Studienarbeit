@@ -74,9 +74,8 @@ Um die Kamera zu simulieren wird camera\_controller plugin genutzt.
 Dieses Plugin hat diverse Einstellungsmöglichkeiten für die Kamera wie FoV, clipping, Farbformat, Updaterate\dots
 Es verfügt außerdem über fortgeschrittenere Einstellungsmöglichkeiten wie Distortion oder Noise.
 
-Die Auflösung der Kamera ist 2456x2054 Pixel.
-Die Position und Orientierung der Kamera wird genau ermittelt, um die simulierte Kamera an die selbe Position zu bringen.
- 
+Die Auflösung der echten Kamera ist 2456x2054 Pixel, daher wird die virtuelle Kamera ebenfalls auf diese Auflösung eingestellt.
+
 \begin{lstlisting}
 <link name="front_camera_link">...</link>
 <joint name="front_camera_joint" type="fixed">...</joint>
@@ -99,11 +98,15 @@ Die Position und Orientierung der Kamera wird genau ermittelt, um die simulierte
     </sensor>
 </gazebo>
 \end{lstlisting}
+Die Position und Orientierung der Kamera wird genau ermittelt, um die simulierte Kamera an die selbe Position zu bringen.
+Kleine Ungenauigkeiten können schon große negative Auswirkungen haben. 
+Die Fahrzeugsteuerung transformiert das Kamerabild ein eine Vogelperspektive um das Bild für die Spurerkennung vorzubereiten.
+Die Transformation vom Kamerabild in die Vogelperspektive ist definiert durch die IPM-Matrix.
+Um zu überprüfen ob die Kamera gut platziert ist, kann man ein Kamerabild nehmen und es mit der IPM-Matrix transformieren. 
 \begin{center}
     \includegraphics[width=1\textwidth]{ipm.png}
 \end{center}
-Problem: Für die IPM umrechnung muss der Kamerafeed sehr genau den echten wiederspiegeln.
-Neue matrix wäre eine Scheiß Lösung.
+Wenn bei der Transformation ein solches Bild herauskommt, stimmt die Kameraplatzierung mit der IPM-Matrix überein.
 
 
 
