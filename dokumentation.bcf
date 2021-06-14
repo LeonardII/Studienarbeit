@@ -2353,13 +2353,20 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliographie.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">fsf:2007</bcf:citekey>
-    <bcf:citekey order="2">baumgartner:2002</bcf:citekey>
-    <bcf:citekey order="3">dreyfus:1980</bcf:citekey>
-    <bcf:citekey order="4">mustermann:2012</bcf:citekey>
-    <bcf:citekey order="5">rosTopics:2019</bcf:citekey>
-    <bcf:citekey order="6">rosIntro:2018</bcf:citekey>
-    <bcf:citekey order="7">ackerman:2021</bcf:citekey>
+    <bcf:citekey order="1">rosTopics:2019</bcf:citekey>
+    <bcf:citekey order="2">rosIntro:2018</bcf:citekey>
+    <bcf:citekey order="3">Gazebo</bcf:citekey>
+    <bcf:citekey order="4">KITcar:gazeboSimulationPackage</bcf:citekey>
+    <bcf:citekey order="5">KITcar:gazeboSimulationPackage</bcf:citekey>
+    <bcf:citekey order="6">KITcar:gazeboSimulationPackage</bcf:citekey>
+    <bcf:citekey order="7">KITcar:gazeboSimulationPackage</bcf:citekey>
+    <bcf:citekey order="8">KITcar:gazeboSimulationPackage</bcf:citekey>
+    <bcf:citekey order="9">KITcar:simulation_evaluation</bcf:citekey>
+    <bcf:citekey order="10">KITcar:simulation_groundtruth</bcf:citekey>
+    <bcf:citekey order="11">KITcar:gazeboSimulationPackage</bcf:citekey>
+    <bcf:citekey order="12">Joint</bcf:citekey>
+    <bcf:citekey order="13">PIDRegler:2020</bcf:citekey>
+    <bcf:citekey order="14">ackerman:2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

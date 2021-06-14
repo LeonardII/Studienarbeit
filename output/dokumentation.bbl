@@ -19,129 +19,133 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{baumgartner:2002}{book}{}
-      \name{author}{3}{}{%
-        {{hash=96df18bf20a7fe641effbe0eeb2da9de}{%
-           family={Baumgartner},
-           familyi={B\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
-        {{hash=d62cbcab585b3aa853a74d73e8752c7d}{%
-           family={Häfele},
-           familyi={H\bibinitperiod},
-           given={Hartmut},
-           giveni={H\bibinitperiod}}}%
-        {{hash=87ec11187948407b7a7d0c930d24f2df}{%
-           family={Maier-Häfele},
-           familyi={M\bibinithyphendelim H\bibinitperiod},
-           given={Kornelia},
-           giveni={K\bibinitperiod}}}%
+    \entry{PIDRegler:2020}{online}{}
+      \name{author}{1}{}{%
+        {{hash=396c983d4290901e4060ffe25e7c0eb3}{%
+           family={{DNA}},
+           familyi={D\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Innsbruck}%
-      }
-      \list{publisher}{1}{%
-        {StudienVerl.}%
-      }
-      \strng{namehash}{e14bd0ad831588d3965026ae31f608c4}
-      \strng{fullhash}{e14bd0ad831588d3965026ae31f608c4}
-      \strng{bibnamehash}{e14bd0ad831588d3965026ae31f608c4}
-      \strng{authorbibnamehash}{e14bd0ad831588d3965026ae31f608c4}
-      \strng{authornamehash}{e14bd0ad831588d3965026ae31f608c4}
-      \strng{authorfullhash}{e14bd0ad831588d3965026ae31f608c4}
-      \field{sortinit}{B}
-      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{3-7065-1771-X}
-      \field{title}{E-Learning Praxishandbuch : Auswahl von Lernplattformen; Marktübersicht, Funktionen, Fachbegriffe}
-      \field{year}{2002}
-    \endentry
-    \entry{dreyfus:1980}{report}{}
-      \name{author}{2}{}{%
-        {{hash=4bdec49b95685de4f29e0764312d95ea}{%
-           family={Dreyfus},
-           familyi={D\bibinitperiod},
-           given={Stuard\bibnamedelima E.},
-           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=e59386cfa3273b049f85d5e655743b2b}{%
-           family={Dreyfus},
-           familyi={D\bibinitperiod},
-           given={Hubert\bibnamedelima L.},
-           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {University of California, Berkley}%
-      }
-      \strng{namehash}{fefa577577d45d9b850bdfa4a035757f}
-      \strng{fullhash}{fefa577577d45d9b850bdfa4a035757f}
-      \strng{bibnamehash}{fefa577577d45d9b850bdfa4a035757f}
-      \strng{authorbibnamehash}{fefa577577d45d9b850bdfa4a035757f}
-      \strng{authornamehash}{fefa577577d45d9b850bdfa4a035757f}
-      \strng{authorfullhash}{fefa577577d45d9b850bdfa4a035757f}
+      \strng{namehash}{396c983d4290901e4060ffe25e7c0eb3}
+      \strng{fullhash}{396c983d4290901e4060ffe25e7c0eb3}
+      \strng{bibnamehash}{396c983d4290901e4060ffe25e7c0eb3}
+      \strng{authorbibnamehash}{396c983d4290901e4060ffe25e7c0eb3}
+      \strng{authornamehash}{396c983d4290901e4060ffe25e7c0eb3}
+      \strng{authorfullhash}{396c983d4290901e4060ffe25e7c0eb3}
       \field{sortinit}{D}
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{A Five-Stage Model Of The Mental Activities Involved In Directed Skill Acquisition}
-      \field{type}{techreport}
-      \field{year}{1980}
+      \field{title}{{Der Regler}}
+      \field{year}{2020}
       \verb{urlraw}
-      \verb http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf
+      \verb https://www.xplore-dna.net/mod/page/view.php?id=88
       \endverb
       \verb{url}
-      \verb http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf
+      \verb https://www.xplore-dna.net/mod/page/view.php?id=88
       \endverb
     \endentry
-    \entry{fsf:2007}{online}{}
+    \entry{Gazebo}{online}{}
       \name{author}{1}{}{%
-        {{hash=cb96118d65be9f05ad10bd5cfdaf0f6d}{%
-           family={{Free Software Foundation}},
-           familyi={F\bibinitperiod}}}%
+        {{hash=59afb9dcd179932967b4f5aa14be6ce5}{%
+           family={{Gazebo}},
+           familyi={G\bibinitperiod}}}%
       }
-      \strng{namehash}{cb96118d65be9f05ad10bd5cfdaf0f6d}
-      \strng{fullhash}{cb96118d65be9f05ad10bd5cfdaf0f6d}
-      \strng{bibnamehash}{cb96118d65be9f05ad10bd5cfdaf0f6d}
-      \strng{authorbibnamehash}{cb96118d65be9f05ad10bd5cfdaf0f6d}
-      \strng{authornamehash}{cb96118d65be9f05ad10bd5cfdaf0f6d}
-      \strng{authorfullhash}{cb96118d65be9f05ad10bd5cfdaf0f6d}
-      \field{sortinit}{F}
-      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \strng{namehash}{59afb9dcd179932967b4f5aa14be6ce5}
+      \strng{fullhash}{59afb9dcd179932967b4f5aa14be6ce5}
+      \strng{bibnamehash}{59afb9dcd179932967b4f5aa14be6ce5}
+      \strng{authorbibnamehash}{59afb9dcd179932967b4f5aa14be6ce5}
+      \strng{authornamehash}{59afb9dcd179932967b4f5aa14be6ce5}
+      \strng{authorfullhash}{59afb9dcd179932967b4f5aa14be6ce5}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{GNU AFFERO GENERAL PUBLIC LICENSE}}
-      \field{year}{2007}
+      \field{title}{{Gazebo}}
+      \field{year}{2014}
       \verb{urlraw}
-      \verb http://www.gnu.org/licenses/agpl-3.0.de.html
+      \verb http://gazebosim.org/
       \endverb
       \verb{url}
-      \verb http://www.gnu.org/licenses/agpl-3.0.de.html
+      \verb http://gazebosim.org/
       \endverb
     \endentry
-    \entry{mustermann:2012}{unpublished}{}
+    \entry{KITcar:gazeboSimulationPackage}{online}{}
       \name{author}{1}{}{%
-        {{hash=30701365ff35d71d636382710e9d1ca7}{%
-           family={Mustermann},
-           familyi={M\bibinitperiod},
-           given={Max},
-           giveni={M\bibinitperiod}}}%
+        {{hash=930d803ee1c905772b6f9f456ae13e6b}{%
+           family={{KITcar}},
+           familyi={K\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Musterstadt}%
-      }
-      \strng{namehash}{30701365ff35d71d636382710e9d1ca7}
-      \strng{fullhash}{30701365ff35d71d636382710e9d1ca7}
-      \strng{bibnamehash}{30701365ff35d71d636382710e9d1ca7}
-      \strng{authorbibnamehash}{30701365ff35d71d636382710e9d1ca7}
-      \strng{authornamehash}{30701365ff35d71d636382710e9d1ca7}
-      \strng{authorfullhash}{30701365ff35d71d636382710e9d1ca7}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \strng{namehash}{930d803ee1c905772b6f9f456ae13e6b}
+      \strng{fullhash}{930d803ee1c905772b6f9f456ae13e6b}
+      \strng{bibnamehash}{930d803ee1c905772b6f9f456ae13e6b}
+      \strng{authorbibnamehash}{930d803ee1c905772b6f9f456ae13e6b}
+      \strng{authornamehash}{930d803ee1c905772b6f9f456ae13e6b}
+      \strng{authorfullhash}{930d803ee1c905772b6f9f456ae13e6b}
+      \field{extraname}{1}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Studienarbeit}
-      \field{title}{tolles Musterthema}
-      \field{year}{2012}
+      \field{title}{{Gazebo Simulation Package}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://public-doc.kitcar-team.de/kitcar-gazebo-simulation/gazebo_simulation/index.html
+      \endverb
+      \verb{url}
+      \verb https://public-doc.kitcar-team.de/kitcar-gazebo-simulation/gazebo_simulation/index.html
+      \endverb
+    \endentry
+    \entry{KITcar:simulation_evaluation}{online}{}
+      \name{author}{1}{}{%
+        {{hash=930d803ee1c905772b6f9f456ae13e6b}{%
+           family={{KITcar}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{930d803ee1c905772b6f9f456ae13e6b}
+      \strng{fullhash}{930d803ee1c905772b6f9f456ae13e6b}
+      \strng{bibnamehash}{930d803ee1c905772b6f9f456ae13e6b}
+      \strng{authorbibnamehash}{930d803ee1c905772b6f9f456ae13e6b}
+      \strng{authornamehash}{930d803ee1c905772b6f9f456ae13e6b}
+      \strng{authorfullhash}{930d803ee1c905772b6f9f456ae13e6b}
+      \field{extraname}{2}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Simulation Evaluation Package}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://public-doc.kitcar-team.de/kitcar-gazebo-simulation/simulation_evaluation/index.html
+      \endverb
+      \verb{url}
+      \verb https://public-doc.kitcar-team.de/kitcar-gazebo-simulation/simulation_evaluation/index.html
+      \endverb
+    \endentry
+    \entry{KITcar:simulation_groundtruth}{online}{}
+      \name{author}{1}{}{%
+        {{hash=930d803ee1c905772b6f9f456ae13e6b}{%
+           family={{KITcar}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{930d803ee1c905772b6f9f456ae13e6b}
+      \strng{fullhash}{930d803ee1c905772b6f9f456ae13e6b}
+      \strng{bibnamehash}{930d803ee1c905772b6f9f456ae13e6b}
+      \strng{authorbibnamehash}{930d803ee1c905772b6f9f456ae13e6b}
+      \strng{authornamehash}{930d803ee1c905772b6f9f456ae13e6b}
+      \strng{authorfullhash}{930d803ee1c905772b6f9f456ae13e6b}
+      \field{extraname}{3}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Simulation Grounndtrouth}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://public-doc.kitcar-team.de/kitcar-gazebo-simulation/simulation_groundtruth/index.html
+      \endverb
+      \verb{url}
+      \verb https://public-doc.kitcar-team.de/kitcar-gazebo-simulation/simulation_groundtruth/index.html
+      \endverb
     \endentry
     \entry{rosIntro:2018}{online}{}
       \name{author}{1}{}{%
